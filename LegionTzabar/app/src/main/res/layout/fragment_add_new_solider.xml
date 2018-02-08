@@ -1,0 +1,451 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.achi.legiontzabar.Fragments.AddNewSoliderFragment">
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp"
+        android:layout_marginTop="70dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="55dp">
+
+            <TextView
+                android:id="@+id/tvNameSolider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/etNameSolider"
+                android:layout_alignBottom="@+id/etNameSolider"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="47dp"
+                android:layout_marginRight="47dp"
+                android:paddingRight="8dp"
+                android:text="@string/nameOfSolider" />
+
+            <TextView
+                android:id="@+id/tvPersonalId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/etPersonalNumber"
+                android:layout_alignBottom="@+id/etPersonalNumber"
+                android:layout_alignEnd="@+id/tvNameSolider"
+                android:layout_alignRight="@+id/tvNameSolider"
+                android:text="@string/personalNumber" />
+
+            <TextView
+                android:id="@+id/tvYamam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/etYamam"
+                android:layout_alignBottom="@+id/etYamam"
+                android:layout_alignLeft="@+id/tvNameSolider"
+                android:layout_alignStart="@+id/tvNameSolider"
+                android:text="@string/yamam" />
+
+            <TextView
+                android:id="@+id/tvPersonalNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvPersonalId"
+                android:layout_alignStart="@+id/tvPersonalId"
+                android:layout_below="@+id/etYamam"
+                android:layout_marginTop="29dp"
+                android:text="@string/cellphoneNumber" />
+
+            <TextView
+                android:id="@+id/tvMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvPersonalNumber"
+                android:layout_alignStart="@+id/tvPersonalNumber"
+                android:layout_below="@+id/etCellphone"
+                android:layout_marginTop="29dp"
+                android:text="@string/mailNewSolider" />
+
+            <TextView
+                android:id="@+id/tvAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/etAddress"
+                android:layout_alignBottom="@+id/etAddress"
+                android:layout_alignLeft="@+id/tvMail"
+                android:layout_alignStart="@+id/tvMail"
+                android:text="@string/addressNewSolider" />
+
+            <TextView
+                android:id="@+id/tvGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/etGender"
+                android:layout_alignBottom="@+id/etGender"
+                android:layout_alignLeft="@+id/tvLastName"
+                android:layout_alignStart="@+id/tvLastName"
+                android:text="@string/gender" />
+
+            <TextView
+                android:id="@+id/tvIsraeliId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/etIsraeliId"
+                android:layout_alignBottom="@+id/etIsraeliId"
+                android:layout_alignEnd="@+id/tvLastName"
+                android:layout_alignRight="@+id/tvLastName"
+                android:text="@string/israeli_id" />
+
+            <TextView
+                android:id="@+id/tvLastName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvNameSolider"
+                android:layout_alignStart="@+id/tvNameSolider"
+                android:layout_alignTop="@+id/etLastName"
+                android:text="@string/last_name" />
+
+            <TextView
+                android:id="@+id/tvRank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/etRank"
+                android:layout_alignBottom="@+id/etRank"
+                android:layout_alignLeft="@+id/tvOccupation"
+                android:layout_alignStart="@+id/tvOccupation"
+                android:text="@string/rank" />
+
+            <TextView
+                android:id="@+id/tvOccupation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/etOccupation"
+                android:layout_alignBottom="@+id/etOccupation"
+                android:layout_alignLeft="@+id/tvMail"
+                android:layout_alignStart="@+id/tvMail"
+                android:text="@string/occupation" />
+
+            <TextView
+                android:id="@+id/tvInMatzeva"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/etInMatzeva"
+                android:layout_alignBottom="@+id/etInMatzeva"
+                android:layout_alignLeft="@+id/tvPersonalId"
+                android:layout_alignStart="@+id/tvPersonalId"
+                android:text="@string/in_matzeva" />
+
+            <TextView
+                android:id="@+id/tvPlatoon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/etPlatoon"
+                android:layout_alignBottom="@+id/etPlatoon"
+                android:layout_alignLeft="@+id/tvInMatzeva"
+                android:layout_alignStart="@+id/tvInMatzeva"
+                android:text="@string/platoon" />
+
+            <TextView
+                android:id="@+id/tvMilitaryOccupation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/etMilitaryOccupation"
+                android:layout_alignBottom="@+id/etMilitaryOccupation"
+                android:layout_alignLeft="@+id/tvPlatoon"
+                android:layout_alignStart="@+id/tvPlatoon"
+                android:text="@string/military_occupation" />
+
+            <EditText
+                android:id="@+id/etNameSolider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="17dp"
+                android:layout_marginRight="17dp"
+                android:layout_toLeftOf="@+id/tvAddress"
+                android:layout_toStartOf="@+id/tvAddress"
+                android:ellipsize="end"
+                android:ems="10"
+                android:gravity="right"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:digits="abcdefghijklmnopqrstuvwxysABCDEFGHIJKLMNOPQRSTUVWXYZאבגדהוזחטיכךלמםנןסעפףצקרשת "
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etPersonalNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/etIsraeliId"
+                android:layout_alignStart="@+id/etIsraeliId"
+                android:layout_below="@+id/etIsraeliId"
+                android:layout_marginTop="18dp"
+                android:ellipsize="end"
+                android:ems="10"
+                android:gravity="right"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etYamam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/etPersonalNumber"
+                android:layout_alignStart="@+id/etPersonalNumber"
+                android:layout_below="@+id/etGender"
+                android:layout_marginTop="18dp"
+                android:ellipsize="end"
+                android:ems="10"
+                android:gravity="right"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etCellphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tvPersonalNumber"
+                android:layout_alignBottom="@+id/tvPersonalNumber"
+                android:layout_alignLeft="@+id/etYamam"
+                android:layout_alignStart="@+id/etYamam"
+                android:ellipsize="end"
+                android:ems="10"
+                android:gravity="right"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tvMail"
+                android:layout_alignBottom="@+id/tvMail"
+                android:layout_alignLeft="@+id/etCellphone"
+                android:layout_alignStart="@+id/etCellphone"
+                android:ellipsize="end"
+                android:ems="10"
+                android:gravity="right"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="10dp"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/etMail"
+                android:layout_alignStart="@+id/etMail"
+                android:layout_below="@+id/etMail"
+                android:layout_marginTop="18dp"
+                android:ellipsize="end"
+                android:ems="10"
+                android:gravity="right"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etIsraeliId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/etNameSolider"
+                android:layout_alignStart="@+id/etNameSolider"
+                android:layout_below="@+id/etLastName"
+                android:layout_marginTop="18dp"
+                android:ellipsize="end"
+                android:ems="10"
+                android:gravity="right"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/etYamam"
+                android:layout_alignStart="@+id/etYamam"
+                android:layout_below="@+id/etPersonalNumber"
+                android:layout_marginTop="18dp"
+                android:ellipsize="end"
+                android:ems="10"
+                android:gravity="right"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:digits="abcdefghijklmnopqrstuvwxysABCDEFGHIJKLMNOPQRSTUVWXYZאבגדהוזחטיכךלמםנןסעפףצקרשת "
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etLastName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/etNameSolider"
+                android:layout_alignStart="@+id/etNameSolider"
+                android:layout_below="@+id/etNameSolider"
+                android:layout_marginTop="18dp"
+                android:ellipsize="end"
+                android:ems="10"
+                android:gravity="right"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:digits="abcdefghijklmnopqrstuvwxysABCDEFGHIJKLMNOPQRSTUVWXYZ אבגדהוזחטיכךלמםנןסעפףצקרשת"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etRank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/etAddress"
+                android:layout_alignStart="@+id/etAddress"
+                android:layout_below="@+id/etAddress"
+                android:layout_marginTop="18dp"
+                android:ellipsize="end"
+                android:ems="10"
+                android:gravity="right"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:digits="abcdefghijklmnopqrstuvwxysABCDEFGHIJKLMNOPQRSTUVWXYZ אבגדהוזחטיכךלמםנןסעפףצקרשת"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etOccupation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/etRank"
+                android:layout_alignStart="@+id/etRank"
+                android:layout_below="@+id/etRank"
+                android:layout_marginTop="18dp"
+                android:ellipsize="end"
+                android:ems="10"
+                android:gravity="right"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:digits="abcdefghijklmnopqrstuvwxysABCDEFGHIJKLMNOPQRSTUVWXYZ אבגדהוזחטיכךלמםנןסעפףצקרשת"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etInMatzeva"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/etOccupation"
+                android:layout_alignStart="@+id/etOccupation"
+                android:layout_below="@+id/etOccupation"
+                android:layout_marginTop="18dp"
+                android:ellipsize="end"
+                android:ems="10"
+                android:gravity="right"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:digits="abcdefghijklmnopqrstuvwxysABCDEFGHIJKLMNOPQRSTUVWXYZאבגדוזחטיכךלמםנןסעפףצקרשת "
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etPlatoon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/etInMatzeva"
+                android:layout_alignStart="@+id/etInMatzeva"
+                android:layout_below="@+id/etInMatzeva"
+                android:layout_marginTop="18dp"
+                android:ellipsize="end"
+                android:ems="10"
+                android:gravity="right"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:digits="abcdefghijklmnopqrstuvwxysABCDEFGHIJKLMNOPQRSTUVWXYZ 'אבגדהוזחטיכךלמםנןסעפףצקרשת"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etMilitaryOccupation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/etPlatoon"
+                android:layout_alignStart="@+id/etPlatoon"
+                android:layout_below="@+id/etPlatoon"
+                android:layout_marginTop="18dp"
+                android:ellipsize="end"
+                android:ems="10"
+                android:gravity="right"
+                android:digits="abcdefghijklmnopqrstuvwxysABCDEFGHIJKLMNOPQRSTUVWXYZ 'אבגדוזחטיכךלמםנןסעפףצקרשת"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </ScrollView>
+    <!-- Making buttons equal on the bottom side of the layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="@string/btnOk" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="30dp"
+
+        android:text="@string/btnCancel" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivSoliderImage"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@android:drawable/ic_menu_report_image" />
+
+    <TextView
+        android:id="@+id/tvAddNewSolider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivSoliderImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="@string/addNewSolider"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_HumanResourceFragment"
+            android:icon="@drawable/ic_sadak"
+            android:title="@string/manResourse" />
+        <item
+            android:id="@+id/nav_CommunicationFragment"
+            android:icon="@drawable/ic_action_name"
+            android:title="@string/communication" />
+        <item
+            android:id="@+id/nav_TrainingFragment"
+            android:icon="@drawable/ic_training"
+            android:title="@string/tvTraining" />
+        <item
+            android:id="@+id/nav_QualificationFragment"
+            android:icon="@drawable/ic_qualification"
+            android:title="@string/qualifications" />
+        <item
+            android:id="@+id/nav_trainingDetailsFragment"
+            android:icon="@drawable/ic_qualification"
+            android:title="@string/trainingDetails" />
+    </group>
+</menu>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/idf_background2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.LoginActivity"
+    >
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="189dp"
+        android:background="@android:drawable/edit_text"
+        android:ems="10"
+        android:hint="@string/userName"
+        android:gravity="right"
+
+        android:inputType="textPersonName"
+        android:textColor="@android:color/primary_text_light" />
+
+    <EditText
+        android:background="@android:drawable/edit_text"
+        android:textColor="@android:color/primary_text_light"
+        android:id="@+id/etPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etName"
+        android:layout_alignStart="@+id/etName"
+        android:layout_alignTop="@+id/etName"
+        android:hint="@string/password"
+        android:layout_marginTop="72dp"
+        android:ems="10"
+        android:gravity="right"
+
+        android:inputType="textPassword"
+        tools:ignore="TextFields" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/cbLogin"
+        android:layout_alignLeft="@+id/etPassword"
+        android:layout_alignRight="@+id/cbLogin"
+        android:layout_alignStart="@+id/etPassword"
+        android:layout_below="@+id/cbLogin"
+        android:layout_marginTop="59dp"
+        android:text="@string/login" />
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnLogin"
+        android:layout_alignRight="@+id/btnLogin"
+        android:layout_below="@+id/btnLogin"
+        android:layout_marginTop="16dp"
+        android:text="@string/numOfTrys" />
+
+    <CheckBox
+        android:id="@+id/cbLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/etPassword"
+        android:layout_alignRight="@+id/etPassword"
+        android:layout_below="@+id/etPassword"
+        android:text="@string/rememberMe"
+        android:button="@null"
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"/>
+
+</RelativeLayout>

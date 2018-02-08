@@ -1,0 +1,366 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.achi.legiontzabar.Fragments.SoliderDetailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:id="@+id/ivSoliderImageDetail"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@android:drawable/ic_menu_report_image" />
+
+    <!-- Making buttons equal on the bottom side of the layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="70dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="30dp">
+
+
+            <TextView
+                android:id="@+id/tvSoliderName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="39dp"
+                android:layout_marginRight="39dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/nameOfSolider" />
+
+            <TextView
+                android:id="@+id/tvDBSoliderName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tvSoliderName"
+                android:layout_alignBottom="@+id/tvSoliderName"
+                android:layout_marginEnd="19dp"
+                android:layout_marginRight="19dp"
+                android:layout_toLeftOf="@+id/tvSoliderName"
+                android:layout_toStartOf="@+id/tvSoliderName"
+                android:text="tvDBSoliderName" />
+
+            <TextView
+                android:id="@+id/tvLastName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvSoliderName"
+                android:layout_marginTop="18dp"
+                android:layout_toEndOf="@+id/tvDBSoliderName"
+                android:layout_toRightOf="@+id/tvDBSoliderName"
+                android:text="@string/last_name" />
+
+            <TextView
+                android:id="@+id/tvDBLastName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/tvPersonalId"
+                android:layout_alignEnd="@+id/tvDBSoliderName"
+                android:layout_alignRight="@+id/tvDBSoliderName"
+                android:text="tvDBLastName" />
+
+            <TextView
+                android:id="@+id/tvPersonalId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvLastName"
+                android:layout_alignStart="@+id/tvLastName"
+                android:layout_below="@+id/tvLastName"
+                android:layout_marginTop="18dp"
+                android:text="@string/israeli_id" />
+
+            <TextView
+                android:id="@+id/tvDBPersonalId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tvPersonalId"
+                android:layout_alignBottom="@+id/tvPersonalId"
+                android:layout_alignEnd="@+id/tvDBSoliderName"
+                android:layout_alignRight="@+id/tvDBSoliderName"
+                android:text="tvDBPersonalId" />
+
+            <TextView
+                android:id="@+id/tvPersonalNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvPersonalId"
+                android:layout_alignStart="@+id/tvPersonalId"
+                android:layout_below="@+id/tvPersonalId"
+                android:layout_marginTop="18dp"
+                android:text="@string/personalNumber" />
+
+            <TextView
+                android:id="@+id/tvDBPersonalNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tvPersonalNumber"
+                android:layout_alignBottom="@+id/tvPersonalNumber"
+                android:layout_alignEnd="@+id/tvDBPersonalId"
+                android:layout_alignRight="@+id/tvDBPersonalId"
+                android:text="tvDBPersonalNumber" />
+
+            <TextView
+                android:id="@+id/tvGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvPersonalNumber"
+                android:layout_alignStart="@+id/tvPersonalNumber"
+                android:layout_below="@+id/tvPersonalNumber"
+                android:layout_marginTop="17dp"
+                android:text="@string/gender" />
+
+            <TextView
+                android:id="@+id/tvDBGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tvGender"
+                android:layout_alignBottom="@+id/tvGender"
+                android:layout_alignEnd="@+id/tvDBPersonalNumber"
+                android:layout_alignRight="@+id/tvDBPersonalNumber"
+                android:text="tvDBGender" />
+
+            <TextView
+                android:id="@+id/tvYamam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvGender"
+                android:layout_alignStart="@+id/tvGender"
+                android:layout_below="@+id/tvGender"
+                android:layout_marginTop="18dp"
+                android:text="@string/yamam" />
+
+            <TextView
+                android:id="@+id/tvDBYamam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tvYamam"
+                android:layout_alignBottom="@+id/tvYamam"
+                android:layout_alignEnd="@+id/tvDBPersonalNumber"
+                android:layout_alignRight="@+id/tvDBPersonalNumber"
+                android:text="tvDBYamam" />
+
+            <TextView
+                android:id="@+id/tvCellphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvYamam"
+                android:layout_alignStart="@+id/tvYamam"
+                android:layout_below="@+id/tvYamam"
+                android:layout_marginTop="18dp"
+                android:text="@string/cellphoneNumber" />
+
+            <TextView
+                android:id="@+id/tvDBCellphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tvCellphone"
+                android:layout_alignBottom="@+id/tvCellphone"
+                android:layout_alignEnd="@+id/tvDBPersonalNumber"
+                android:layout_alignRight="@+id/tvDBPersonalNumber"
+                android:text="tvDBCellphone" />
+
+            <TextView
+                android:id="@+id/tvMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvCellphone"
+                android:layout_alignStart="@+id/tvCellphone"
+                android:layout_below="@+id/tvCellphone"
+                android:layout_marginTop="18dp"
+                android:text="@string/mailNewSolider" />
+
+            <TextView
+                android:id="@+id/tvDBMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tvMail"
+                android:layout_alignBottom="@+id/tvMail"
+                android:layout_alignEnd="@+id/tvDBCellphone"
+                android:layout_alignRight="@+id/tvDBCellphone"
+                android:text="tvDBMail" />
+
+            <TextView
+                android:id="@+id/tvAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tvDBAddress"
+                android:layout_alignBottom="@+id/tvDBAddress"
+                android:layout_alignLeft="@+id/tvMail"
+                android:layout_alignStart="@+id/tvMail"
+                android:layout_marginTop="18dp"
+                android:text="@string/addressNewSolider" />
+
+            <TextView
+                android:id="@+id/tvDBAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/tvDBCellphone"
+                android:layout_alignRight="@+id/tvDBCellphone"
+                android:layout_below="@+id/tvDBMail"
+                android:layout_marginTop="16dp"
+                android:text="tvDBAddress" />
+
+            <TextView
+                android:id="@+id/tvRank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvAddress"
+                android:layout_alignStart="@+id/tvAddress"
+                android:layout_below="@+id/tvAddress"
+                android:layout_marginTop="18dp"
+                android:text="@string/rank" />
+
+            <TextView
+                android:id="@+id/tvDBRank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tvRank"
+                android:layout_alignBottom="@+id/tvRank"
+                android:layout_alignEnd="@+id/tvDBMail"
+                android:layout_alignRight="@+id/tvDBMail"
+                android:text="tvDBRank" />
+
+            <TextView
+                android:id="@+id/tvOccupation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvRank"
+                android:layout_alignStart="@+id/tvRank"
+                android:layout_below="@+id/tvRank"
+                android:layout_marginTop="18dp"
+                android:text="@string/occupation" />
+
+            <TextView
+                android:id="@+id/tvDBOccupation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tvOccupation"
+                android:layout_alignBottom="@+id/tvOccupation"
+                android:layout_alignEnd="@+id/tvDBRank"
+                android:layout_alignRight="@+id/tvDBRank"
+                android:text="tvDBOccupation" />
+
+            <TextView
+                android:id="@+id/tvInMatzeva"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvOccupation"
+                android:layout_alignStart="@+id/tvOccupation"
+                android:layout_below="@+id/tvOccupation"
+                android:layout_marginTop="18dp"
+                android:text="@string/in_matzeva" />
+
+            <TextView
+                android:id="@+id/tvDBInMatzeva"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tvInMatzeva"
+                android:layout_alignBottom="@+id/tvInMatzeva"
+                android:layout_alignEnd="@+id/tvDBMail"
+                android:layout_alignRight="@+id/tvDBMail"
+                android:text="tvDBInMatzeva" />
+
+            <TextView
+                android:id="@+id/tvPlatoon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvInMatzeva"
+                android:layout_alignStart="@+id/tvInMatzeva"
+                android:layout_below="@+id/tvInMatzeva"
+                android:layout_marginTop="18dp"
+                android:text="@string/platoon" />
+
+            <TextView
+                android:id="@+id/tvDBPlatoon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tvPlatoon"
+                android:layout_alignBottom="@+id/tvPlatoon"
+                android:layout_alignEnd="@+id/tvDBMail"
+                android:layout_alignRight="@+id/tvDBMail"
+                android:text="tvDBPlatoon" />
+
+            <TextView
+                android:id="@+id/tvMilitaryOccupation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvPlatoon"
+                android:layout_alignStart="@+id/tvPlatoon"
+                android:layout_below="@+id/tvPlatoon"
+                android:layout_marginTop="18dp"
+                android:text="@string/military_occupation" />
+
+            <TextView
+                android:id="@+id/tvDBMilitaryOccupation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tvMilitaryOccupation"
+                android:layout_alignBottom="@+id/tvMilitaryOccupation"
+                android:layout_alignEnd="@+id/tvDBPlatoon"
+                android:layout_alignRight="@+id/tvDBPlatoon"
+                android:text="tvDBMilitaryOccupation" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+    <Button
+        android:id="@+id/btnEditSoliderDetails"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+
+
+        android:text="@string/edit" />
+
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="@string/call" />
+
+    <Button
+        android:id="@+id/btnSendMail"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+
+
+        android:text="@string/sendMail" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvDataSoliderName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivSoliderImageDetail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:text="@string/solider_details"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

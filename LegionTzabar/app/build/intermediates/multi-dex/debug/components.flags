@@ -1,0 +1,72 @@
+-injars '/Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/libs/poi-3.17/poi-3.17.jar'(**.class)
+-injars '/Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/libs/poi-3.17/poi-excelant-3.17.jar'(**.class)
+-injars '/Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/libs/poi-3.17/poi-ooxml-3.17.jar'(**.class)
+-injars '/Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/libs/poi-3.17/poi-ooxml-schemas-3.17.jar'(**.class)
+-injars /Users/kiri/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/baf13b197ec86de69eb1f25347c28bc1/jars/classes.jar(**.class)
+-injars /Users/kiri/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/8cc053d30a267f94c21d63577f5047b6/jars/classes.jar(**.class)
+-injars /Users/kiri/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/379c815dfe211c18b6d00c1921cff3ee/jars/classes.jar(**.class)
+-injars /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d8ba404c8395446cfd97fe0dcdf136d1/jars/classes.jar(**.class)
+-injars /Users/kiri/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/72c0b06589563c11b42764b0b19fcc5c/jars/classes.jar(**.class)
+-injars /Users/kiri/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-26.1.0.aar/2aba8a8ce6dcadb5343329fe451eae79/jars/classes.jar(**.class)
+-injars /Users/kiri/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0-alpha4-1.aar/460f89615e5ae85e6df06ac1b1a75d16/jars/classes.jar(**.class)
+-injars /Users/kiri/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0.aar/face7f5721e864cc3b1c055e610daa30/jars/classes.jar(**.class)
+-injars /Users/kiri/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/1f290791221df0b1819dcecabd08728f/jars/classes.jar(**.class)
+-injars /Users/kiri/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c5cee09913a7415e400976bfd6391f0d/jars/classes.jar(**.class)
+-injars /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/e92276d58fe21fa1b7e153e8b951365d/jars/classes.jar(**.class)
+-injars /Users/kiri/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/5b60f6f1dfe15837f0eb324ad30dc787/jars/classes.jar(**.class)
+-injars /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/49b11b670246c44ffaf0c8bd117823c9/jars/classes.jar(**.class)
+-injars /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/24263b7b15f80a550ba130409b6c4d2b/jars/classes.jar(**.class)
+-injars /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7f83581519db6a3a3e369d4561b5e10f/jars/classes.jar(**.class)
+-injars /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1141bbd95dcb0adbbfae64c2e2762c81/jars/classes.jar(**.class)
+-injars /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bd7f4ca0b2421700ba652d802b97f7b0/jars/classes.jar(**.class)
+-injars /Users/kiri/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/090725edf2e9302048985bff58bcba73/jars/classes.jar(**.class)
+-injars /Users/kiri/.gradle/caches/modules-2/files-2.1/android.arch.paging/common/1.0.0-alpha4-1/d30a42ed2acf40ae1f1469d0f4436493633b46ea/common-1.0.0-alpha4-1.jar(**.class)
+-injars /Users/kiri/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/2d4cbe99670e6d68fe30ecb7df57106d/jars/classes.jar(**.class)
+-injars /Users/kiri/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar(**.class)
+-injars /Users/kiri/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.3/7d7f60c4783872861222166f6164215f8951c7b1/common-1.0.3.jar(**.class)
+-injars /Users/kiri/.gradle/caches/modules-2/files-2.1/android.arch.persistence.room/common/1.0.0/1cbd3ddc566125293b13af5c0a65bc015476e83c/common-1.0.0.jar(**.class)
+-injars /Users/kiri/.gradle/caches/transforms-1/files-1.1/db-framework-1.0.0.aar/a24e850c4124ca71061b4adf0e73ed72/jars/classes.jar(**.class)
+-injars /Users/kiri/.gradle/caches/transforms-1/files-1.1/db-1.0.0.aar/729b2c8b944f45026b2bde831d80214b/jars/classes.jar(**.class)
+-injars /Users/kiri/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar(**.class)
+-injars '/Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/build/intermediates/classes/debug'(**.class)
+-outjars '/Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/build/intermediates/multi-dex/debug/componentClasses.jar'
+
+-libraryjars /Users/kiri/Library/Android/sdk/build-tools/26.0.2/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration '/Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/build/intermediates/multi-dex/debug/components.flags'
+
+
+# Referenced at /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:19
+-keep class android.support.multidex.MultiDexApplication {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}

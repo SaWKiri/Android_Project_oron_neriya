@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ConnectToComputer">התחבר למחשב</string>
+    <string name="LastYearMiluimDays">ימ\"מ בשנה האחרונה:</string>
+    <string name="MiluimDays">ימי מילואים:</string>
+    <string name="Mishtatfim">משתתפים:</string>
+    <string name="Period">תוקף:</string>
+    <string name="PlugaTable">פלוגה</string>
+    <string name="Position">מיקום:</string>
+    <string name="Qualify">הכשרות</string>
+    <string name="ResidentPlace">מקום מגורים:</string>
+    <string name="RoleTable">תפקיד</string>
+    <string name="SoliderNameTable">שם החייל</string>
+    <string name="TrainingCode">קוד אימון:</string>
+    <string name="TrainingDate">תאריך אימון:</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"נווט לדף הבית"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"‏%1$s‏, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"‏%1$s‏, %2$s‏, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"נווט למעלה"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"עוד אפשרויות"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"בוצע"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"ראה הכל"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"בחר אפליקציה"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"כבוי"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"פועל"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"חפש…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"מחק שאילתה"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"שאילתת חיפוש"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"חפש"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"שלח שאילתה"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"חיפוש קולי"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"שתף עם"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"‏שתף עם %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"כווץ"</string>
+    <string name="add">צירוף קובץ</string>
+    <string name="addBtn">+</string>
+    <string name="addFile">הוספת קבצים:</string>
+    <string name="addFiles">הוספת קבצים</string>
+    <string name="addNewSolider">הוספת חייל</string>
+    <string name="addQualification">הוספת הכשרה</string>
+    <string name="addTraining">הוספת אימון</string>
+    <string name="addressNewSolider">כתובת:</string>
+    <string name="adress">כתובת</string>
+    <string name="app_name">LegionTzabar</string>
+    <string name="btnAddFiles">הוספת קבצים</string>
+    <string name="btnCancel">ביטול</string>
+    <string name="btnOk">אישור</string>
+    <string name="btnSend">שליחה</string>
+    <string name="call">התקשר</string>
+    <string name="callSoldier">התקשר</string>
+    <string name="cellphoneNumber">טלפון:</string>
+    <string name="communication">תקשורת</string>
+    <string name="contactList">רשימת תפוצה:</string>
+    <string name="edit">עריכה</string>
+    <string name="emailAdress">:כתובת מייל</string>
+    <string name="file1">קובץ 3</string>
+    <string name="file2">קובץ 2</string>
+    <string name="file3">קובץ 1</string>
+    <string name="files">קבצים:</string>
+    <string name="gender">מין:</string>
+    <string name="in_matzeva">במצבה:</string>
+    <string name="israeli_id">תעודת זהות:</string>
+    <string name="last_name">שם משפחה:</string>
+    <string name="login">התחברות</string>
+    <string name="mail">מייל</string>
+    <string name="mailNewSolider">מייל:</string>
+    <string name="manResourse">כוח אדם</string>
+    <string name="mid">תקן:</string>
+    <string name="military_occupation">מקצוע צבאי:</string>
+    <string name="nameOfSolider">שם החייל:</string>
+    <string name="numOfTrys">מספר נסיונות:</string>
+    <string name="occupation">מקצוע:</string>
+    <string name="openSoldierInfo">הצג פרטים</string>
+    <string name="password">סיסמה</string>
+    <string name="period">תוקף:</string>
+    <string name="personalNumber">מספר אישי:</string>
+    <string name="qualifications">הכשרות</string>
+    <string name="qualifyName">שם הכשרה:</string>
+    <string name="rank">דרגה:</string>
+    <string name="rememberMe">זכור אותי</string>
+    <string name="sadak">סד"כ</string>
+    <string msgid="146198913615257606" name="search_menu_title">"חפש"</string>
+    <string name="sendEmail">שלח מייל</string>
+    <string name="sendMail">שלח מייל</string>
+    <string name="soliderDetails">פרטי החייל</string>
+    <string name="solider_details">פרטי החייל</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"‎999+‎"</string>
+    <string name="trainingDetails">פרטי אימון(דמו)</string>
+    <string name="tvTraining">אימונים</string>
+    <string name="userName">שם משתמש</string>
+    <string name="yamam">ימ\"מ:</string>
+</resources>

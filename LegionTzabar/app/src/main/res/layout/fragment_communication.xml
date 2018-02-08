@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.achi.legiontzabar.Fragments.CommunicationFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/tvContactList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="49dp"
+        android:layout_marginRight="49dp"
+        android:layout_marginTop="26dp"
+        android:text="@string/contactList" />
+
+    <Spinner
+        android:id="@+id/spinnerContactL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvContactList"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="7dp" />
+
+    <EditText
+        android:id="@+id/etMailAdress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etMail"
+        android:layout_alignStart="@+id/etMail"
+        android:layout_alignTop="@+id/tvEmailAdress"
+        android:layout_toLeftOf="@+id/tvEmailAdress"
+        android:layout_toStartOf="@+id/tvEmailAdress"
+        android:inputType="textEmailAddress"
+        android:lines="1"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp" />
+
+    <EditText
+        android:id="@+id/etMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/border_view"
+        android:gravity="top|right"
+        android:inputType="textMultiLine"
+        android:lines="15"
+        android:maxLength="500"
+        android:maxLines="15"
+        android:minLines="15"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:text="" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="@string/btnSend" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvEmailAdress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/spinnerContactL"
+        android:layout_alignRight="@+id/spinnerContactL"
+        android:layout_below="@+id/spinnerContactL"
+        android:layout_marginTop="5dp"
+        android:text="@string/emailAdress" />
+</RelativeLayout>

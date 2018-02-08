@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.achi.legiontzabar.Fragments.AddNewTraining">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tvAddTraining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="@string/addTraining"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTrainingDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAddTraining"
+        android:layout_marginTop="75dp"
+        android:layout_toEndOf="@+id/tvAddTraining"
+        android:layout_toRightOf="@+id/tvAddTraining"
+        android:text="@string/TrainingDate" />
+
+    <TextView
+        android:id="@+id/tvMishtatfim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvTrainingDate"
+        android:layout_alignStart="@+id/tvTrainingDate"
+        android:layout_below="@+id/tvTrainingDate"
+        android:layout_marginTop="36dp"
+        android:text="@string/Mishtatfim" />
+
+    <TextView
+        android:id="@+id/tvAddFiles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvMishtatfim"
+        android:layout_alignStart="@+id/tvMishtatfim"
+        android:layout_centerVertical="true"
+        android:text="@string/addFile" />
+
+    <EditText
+        android:id="@+id/etTrainingDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvTrainingDate"
+        android:layout_alignBottom="@+id/tvTrainingDate"
+        android:layout_alignEnd="@+id/tvAddTraining"
+        android:layout_alignRight="@+id/tvAddTraining"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/etMishtatfim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvMishtatfim"
+        android:layout_alignBottom="@+id/tvMishtatfim"
+        android:layout_alignLeft="@+id/etTrainingDate"
+        android:layout_alignStart="@+id/etTrainingDate"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnAddFiles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/etMishtatfim"
+        android:layout_alignLeft="@+id/etMishtatfim"
+        android:layout_alignRight="@+id/etMishtatfim"
+        android:layout_alignStart="@+id/etMishtatfim"
+        android:layout_alignTop="@+id/tvAddFiles"
+        android:text="@string/add" />
+
+    <TextView
+        android:id="@+id/tvAddedFiles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnAddFiles"
+        android:layout_alignLeft="@+id/btnAddFiles"
+        android:layout_alignRight="@+id/btnAddFiles"
+        android:layout_alignStart="@+id/btnAddFiles"
+        android:layout_below="@+id/btnAddFiles"
+        android:layout_marginTop="16dp"
+        android:text="**File Added**" />
+    <!-- Making buttons equal on the bottom side of the layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/btnCancel" />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/btnOk" />
+    </LinearLayout>
+</RelativeLayout>

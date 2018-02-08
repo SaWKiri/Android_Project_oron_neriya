@@ -1,0 +1,236 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:2:1-43:12
+MERGED from [com.android.support:design:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/baf13b197ec86de69eb1f25347c28bc1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/8cc053d30a267f94c21d63577f5047b6/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:transition:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/379c815dfe211c18b6d00c1921cff3ee/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d8ba404c8395446cfd97fe0dcdf136d1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/kiri/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/72c0b06589563c11b42764b0b19fcc5c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:gridlayout-v7:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-26.1.0.aar/2aba8a8ce6dcadb5343329fe451eae79/AndroidManifest.xml:17:1-28:12
+MERGED from [android.arch.paging:runtime:1.0.0-alpha4-1] /Users/kiri/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0-alpha4-1.aar/460f89615e5ae85e6df06ac1b1a75d16/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:extensions:1.0.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0.aar/face7f5721e864cc3b1c055e610daa30/AndroidManifest.xml:17:1-32:12
+MERGED from [android.arch.persistence.room:runtime:1.0.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/1f290791221df0b1819dcecabd08728f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c5cee09913a7415e400976bfd6391f0d/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/e92276d58fe21fa1b7e153e8b951365d/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/5b60f6f1dfe15837f0eb324ad30dc787/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/49b11b670246c44ffaf0c8bd117823c9/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/24263b7b15f80a550ba130409b6c4d2b/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7f83581519db6a3a3e369d4561b5e10f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1141bbd95dcb0adbbfae64c2e2762c81/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bd7f4ca0b2421700ba652d802b97f7b0/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.core:runtime:1.0.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/090725edf2e9302048985bff58bcba73/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/kiri/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/2d4cbe99670e6d68fe30ecb7df57106d/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.persistence:db-framework:1.0.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/db-framework-1.0.0.aar/a24e850c4124ca71061b4adf0e73ed72/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.persistence:db:1.0.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/db-1.0.0.aar/729b2c8b944f45026b2bde831d80214b/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:2:1-43:12
+		INJECTED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:2:1-43:12
+		INJECTED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:7:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:8:5-72
+	android:name
+		ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:8:22-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:10:22-77
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:11:5-77
+	android:name
+		ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:11:22-75
+application
+ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:15:5-40:19
+MERGED from [com.android.support:design:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/baf13b197ec86de69eb1f25347c28bc1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/baf13b197ec86de69eb1f25347c28bc1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/8cc053d30a267f94c21d63577f5047b6/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/8cc053d30a267f94c21d63577f5047b6/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:transition:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/379c815dfe211c18b6d00c1921cff3ee/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/379c815dfe211c18b6d00c1921cff3ee/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d8ba404c8395446cfd97fe0dcdf136d1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d8ba404c8395446cfd97fe0dcdf136d1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:gridlayout-v7:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-26.1.0.aar/2aba8a8ce6dcadb5343329fe451eae79/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:gridlayout-v7:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-26.1.0.aar/2aba8a8ce6dcadb5343329fe451eae79/AndroidManifest.xml:22:5-26:19
+MERGED from [android.arch.lifecycle:extensions:1.0.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0.aar/face7f5721e864cc3b1c055e610daa30/AndroidManifest.xml:24:5-30:19
+MERGED from [android.arch.lifecycle:extensions:1.0.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0.aar/face7f5721e864cc3b1c055e610daa30/AndroidManifest.xml:24:5-30:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c5cee09913a7415e400976bfd6391f0d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c5cee09913a7415e400976bfd6391f0d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/e92276d58fe21fa1b7e153e8b951365d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/e92276d58fe21fa1b7e153e8b951365d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/5b60f6f1dfe15837f0eb324ad30dc787/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/5b60f6f1dfe15837f0eb324ad30dc787/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/49b11b670246c44ffaf0c8bd117823c9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/49b11b670246c44ffaf0c8bd117823c9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/24263b7b15f80a550ba130409b6c4d2b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/24263b7b15f80a550ba130409b6c4d2b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7f83581519db6a3a3e369d4561b5e10f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7f83581519db6a3a3e369d4561b5e10f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1141bbd95dcb0adbbfae64c2e2762c81/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1141bbd95dcb0adbbfae64c2e2762c81/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bd7f4ca0b2421700ba652d802b97f7b0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bd7f4ca0b2421700ba652d802b97f7b0/AndroidManifest.xml:25:5-29:19
+	android:supportsRtl
+		ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:19:9-36
+	android:label
+		ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:18:9-41
+	android:icon
+		ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:17:9-43
+	android:allowBackup
+		ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:16:9-35
+	android:theme
+		ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:20:9-40
+activity#com.example.achi.legiontzabar.Activitys.LoginActivity
+ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:21:9-29:20
+	android:windowSoftInputMode
+		ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:22:13-64
+	android:isScrollContainer
+		ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:23:13-46
+	android:name
+		ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:21:19-58
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:27:27-74
+activity#com.example.achi.legiontzabar.Activitys.NavigatorActivity
+ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:31:9-37:15
+	android:label
+		ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:33:13-42
+	android:windowSoftInputMode
+		ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:35:13-64
+	android:theme
+		ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:34:13-56
+	android:isScrollContainer
+		ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:36:13-46
+	android:name
+		ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml:32:13-56
+uses-sdk
+INJECTED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml
+INJECTED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/baf13b197ec86de69eb1f25347c28bc1/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/baf13b197ec86de69eb1f25347c28bc1/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/8cc053d30a267f94c21d63577f5047b6/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/8cc053d30a267f94c21d63577f5047b6/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:transition:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/379c815dfe211c18b6d00c1921cff3ee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/379c815dfe211c18b6d00c1921cff3ee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d8ba404c8395446cfd97fe0dcdf136d1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d8ba404c8395446cfd97fe0dcdf136d1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:multidex:1.0.2] /Users/kiri/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/72c0b06589563c11b42764b0b19fcc5c/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/kiri/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/72c0b06589563c11b42764b0b19fcc5c/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:gridlayout-v7:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-26.1.0.aar/2aba8a8ce6dcadb5343329fe451eae79/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-26.1.0.aar/2aba8a8ce6dcadb5343329fe451eae79/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.paging:runtime:1.0.0-alpha4-1] /Users/kiri/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0-alpha4-1.aar/460f89615e5ae85e6df06ac1b1a75d16/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.paging:runtime:1.0.0-alpha4-1] /Users/kiri/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0-alpha4-1.aar/460f89615e5ae85e6df06ac1b1a75d16/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.0.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0.aar/face7f5721e864cc3b1c055e610daa30/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:extensions:1.0.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0.aar/face7f5721e864cc3b1c055e610daa30/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence.room:runtime:1.0.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/1f290791221df0b1819dcecabd08728f/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence.room:runtime:1.0.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/1f290791221df0b1819dcecabd08728f/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c5cee09913a7415e400976bfd6391f0d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c5cee09913a7415e400976bfd6391f0d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/e92276d58fe21fa1b7e153e8b951365d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/e92276d58fe21fa1b7e153e8b951365d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/5b60f6f1dfe15837f0eb324ad30dc787/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/5b60f6f1dfe15837f0eb324ad30dc787/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/49b11b670246c44ffaf0c8bd117823c9/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/49b11b670246c44ffaf0c8bd117823c9/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/24263b7b15f80a550ba130409b6c4d2b/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/24263b7b15f80a550ba130409b6c4d2b/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7f83581519db6a3a3e369d4561b5e10f/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7f83581519db6a3a3e369d4561b5e10f/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1141bbd95dcb0adbbfae64c2e2762c81/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1141bbd95dcb0adbbfae64c2e2762c81/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bd7f4ca0b2421700ba652d802b97f7b0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bd7f4ca0b2421700ba652d802b97f7b0/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.core:runtime:1.0.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/090725edf2e9302048985bff58bcba73/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.core:runtime:1.0.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/090725edf2e9302048985bff58bcba73/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/kiri/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/2d4cbe99670e6d68fe30ecb7df57106d/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/kiri/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/2d4cbe99670e6d68fe30ecb7df57106d/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence:db-framework:1.0.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/db-framework-1.0.0.aar/a24e850c4124ca71061b4adf0e73ed72/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence:db-framework:1.0.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/db-framework-1.0.0.aar/a24e850c4124ca71061b4adf0e73ed72/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence:db:1.0.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/db-1.0.0.aar/729b2c8b944f45026b2bde831d80214b/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence:db:1.0.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/db-1.0.0.aar/729b2c8b944f45026b2bde831d80214b/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml
+INJECTED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/baf13b197ec86de69eb1f25347c28bc1/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kiri/Desktop/Android/LegionTzabar Project/LegionTzabar3/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/baf13b197ec86de69eb1f25347c28bc1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/8cc053d30a267f94c21d63577f5047b6/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/8cc053d30a267f94c21d63577f5047b6/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/379c815dfe211c18b6d00c1921cff3ee/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/379c815dfe211c18b6d00c1921cff3ee/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d8ba404c8395446cfd97fe0dcdf136d1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d8ba404c8395446cfd97fe0dcdf136d1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:gridlayout-v7:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-26.1.0.aar/2aba8a8ce6dcadb5343329fe451eae79/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:gridlayout-v7:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-26.1.0.aar/2aba8a8ce6dcadb5343329fe451eae79/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c5cee09913a7415e400976bfd6391f0d/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c5cee09913a7415e400976bfd6391f0d/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/e92276d58fe21fa1b7e153e8b951365d/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/e92276d58fe21fa1b7e153e8b951365d/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/5b60f6f1dfe15837f0eb324ad30dc787/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/5b60f6f1dfe15837f0eb324ad30dc787/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/49b11b670246c44ffaf0c8bd117823c9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/49b11b670246c44ffaf0c8bd117823c9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/24263b7b15f80a550ba130409b6c4d2b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/24263b7b15f80a550ba130409b6c4d2b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7f83581519db6a3a3e369d4561b5e10f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7f83581519db6a3a3e369d4561b5e10f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1141bbd95dcb0adbbfae64c2e2762c81/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1141bbd95dcb0adbbfae64c2e2762c81/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bd7f4ca0b2421700ba652d802b97f7b0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bd7f4ca0b2421700ba652d802b97f7b0/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/baf13b197ec86de69eb1f25347c28bc1/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/baf13b197ec86de69eb1f25347c28bc1/AndroidManifest.xml:27:13-51
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.0.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0.aar/face7f5721e864cc3b1c055e610daa30/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.0.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0.aar/face7f5721e864cc3b1c055e610daa30/AndroidManifest.xml:27:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.0.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0.aar/face7f5721e864cc3b1c055e610daa30/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.0.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0.aar/face7f5721e864cc3b1c055e610daa30/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.0.0] /Users/kiri/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0.aar/face7f5721e864cc3b1c055e610daa30/AndroidManifest.xml:26:13-83

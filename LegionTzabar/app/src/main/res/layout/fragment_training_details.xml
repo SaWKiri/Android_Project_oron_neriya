@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.achi.legiontzabar.Fragments.TrainingDetails">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tvDataKindOfTraining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="79dp"
+        android:layout_marginRight="79dp"
+        android:layout_marginTop="51dp"
+        android:text="פרטי אימון"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tvDataKindOfTraining"
+        android:layout_alignRight="@+id/tvDataKindOfTraining"
+        android:layout_below="@+id/tvDataKindOfTraining"
+        android:layout_marginTop="48dp"
+        android:text="@string/TrainingDate" />
+
+    <TextView
+        android:id="@+id/tvMistatfim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tvPosition"
+        android:layout_alignRight="@+id/tvPosition"
+        android:layout_below="@+id/tvDate"
+        android:layout_marginTop="80dp"
+        android:text="@string/Mishtatfim" />
+
+    <TextView
+        android:id="@+id/tvPosition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tvDate"
+        android:layout_alignRight="@+id/tvDate"
+        android:layout_below="@+id/tvMistatfim"
+        android:layout_marginTop="29dp"
+        android:text="@string/Position" />
+
+    <TextView
+        android:id="@+id/tvDataTrainingDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvDate"
+        android:layout_alignBottom="@+id/tvDate"
+        android:layout_toLeftOf="@+id/tvDataPosition"
+        android:layout_toStartOf="@+id/tvDataPosition"
+        android:text="12/12/18" />
+
+    <TextView
+        android:id="@+id/tvDataMistatfim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvMistatfim"
+        android:layout_alignBottom="@+id/tvMistatfim"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:text="פלוגה א'" />
+
+    <TextView
+        android:id="@+id/tvDataPosition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvPosition"
+        android:layout_alignBottom="@+id/tvPosition"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_toLeftOf="@+id/tvPosition"
+        android:layout_toStartOf="@+id/tvPosition"
+        android:text="בסיס ערד" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/btnFile3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/file3" />
+
+        <Button
+            android:id="@+id/btnFile2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="@string/file2" />
+
+        <Button
+            android:id="@+id/btnFile1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/file1" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvDataMistatfim"
+        android:layout_alignEnd="@+id/tvDate"
+        android:layout_alignRight="@+id/tvDate"
+        android:layout_marginBottom="25dp"
+        android:text="@string/TrainingCode" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toLeftOf="@+id/tvMistatfim"
+        android:layout_toStartOf="@+id/tvMistatfim"
+        android:text="1234515" />
+
+
+</RelativeLayout>
