@@ -1,1 +1,1 @@
-# Android_Project_oron_neriya
+# Humane Resource Managment app
